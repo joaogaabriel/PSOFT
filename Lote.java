@@ -1,9 +1,9 @@
 public class Lote {
-    private String nome;
+    private String validade;
     private Integer quantidade;
     private Produto produto;
-    public Lote(String nome, Integer quantidade, Produto produto) {
-        this.nome = nome;
+    public Lote(String validade, Integer quantidade, Produto produto) {
+        this.validade = validade;
         this.quantidade = quantidade;
         this.produto = produto;
     }
